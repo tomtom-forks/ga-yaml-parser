@@ -13,7 +13,7 @@ test("test parse action.yaml file", () => {
 
   expect(result).toContain("set-output");
   expect(result).toContain("runs.using");
-  expect(result).toContain("node20");
+  expect(result).toContain("node24");
   expect(result).toContain("description");
 });
 
